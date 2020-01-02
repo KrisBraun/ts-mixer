@@ -1,6 +1,6 @@
 {
   "name": "ts-mixer",
-  "version": "4.0.0",
+  "version": "4.1.0",
   "description": "A very small TypeScript library that provides tolerable Mixin functionality.",
   "main": "dist/mixins.js",
   "module": "dist/mixins.js",
@@ -21,7 +21,6 @@
     "preversion": "yarn lint && yarn test && yarn docs-clean"
   },
   "dependencies": {
-    "is-class": "^0.0.9"
   },
   "devDependencies": {
     "@types/chai": "^4.2.5",
